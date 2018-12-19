@@ -15,11 +15,11 @@ class WizardFour extends Component {
           
           <div className="row">
             <Link to="/wFive">
-              <button onClick={ ( e ) => updateFound( true ) }>Yes</button>
+              <button onClick={ ( e ) => updateFound( 'true' ) }>Yes</button>
             </Link>
 
             <Link to="/wFive">
-              <button onClick={ ( e ) => updateFound( false ) }>No</button>
+              <button onClick={ ( e ) => updateFound( 'false' ) }>No</button>
             </Link>
           </div>
         </div>
